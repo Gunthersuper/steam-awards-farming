@@ -7,7 +7,7 @@ var async = require('async');
 var community = new SteamCommunity;
 
 var text = fs.readFileSync('./accs.txt').toString('utf-8');
-var bot = text.split('\n')
+var bot = text.split("\n");
 
 
 (async() => {
@@ -129,7 +129,7 @@ var bot = text.split('\n')
 			};
 		});
 		
-		if (i < bot.length) await new Promise(r => setTimeout(r, 3000))
+		if (i < bot.length) await new Promise(r => setTimeout(r, 50000))
 		else  console.log('[%s] End\n------------------', logOnOptions.accountName)
 	};
 

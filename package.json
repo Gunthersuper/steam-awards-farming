@@ -4,6 +4,8 @@
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "steam-totp": "^2.1.1",
+    "steam-tradeoffer-manager": "^2.10.4",
+    "steam-user": "^4.20.2",
     "steamcommunity": "^3.43.1"
   }
 }
