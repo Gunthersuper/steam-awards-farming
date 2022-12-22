@@ -85,52 +85,52 @@ var bot = text.split("\n");
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 1 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options2,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 2 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options3,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 3 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options4,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 4 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options5,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 5 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options6,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 6 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options7,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 7 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options8,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 8 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options9,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 9 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options10,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 10 of 11', logOnOptions.accountName)
 					})
-					await new Promise(r => setTimeout(r, 3000));
+					await new Promise(r => setTimeout(r, 1000));
 					community.httpRequestPost('https://store.steampowered.com/salevote', options11,	function (err, response, data) {
 						if (err) console.log('[%s] Something went wrong: %s', logOnOptions.accountName, err)
 						if (!err) console.log('[%s] Voted 11 of 11', logOnOptions.accountName)
@@ -139,7 +139,7 @@ var bot = text.split("\n");
 			};
 		});
 		
-		if (i < bot.length) await new Promise(r => setTimeout(r, 50000))
+		if (i < bot.length) await new Promise(r => setTimeout(r, 15000))
 		else  console.log('[%s] End\n------------------', logOnOptions.accountName)
 	};
 
